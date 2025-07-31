@@ -1,0 +1,404 @@
+﻿{
+    "Produtos": [
+        {
+            "codigo": "DMX10000",
+            "nome": "Guidão",
+            "descricao": "GUIDAO C/ SUPORTE P/ PESO TITAN 160/CARGO 160/FAN 160 2016/START 160 2016~",
+            "marca": "Gemoto",
+            "imagem": "Fotos\\DMX10001.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10001",
+            "nome": "Guidão",
+            "descricao": "GUIDAO S/ SUPORTE P/ PESO TITAN 160/CARGO 160/FAN 160 2016/START 160 2016",
+            "marca": "Cromoforte",
+            "imagem": "Fotos\\DMX10000.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10002",
+            "nome": "Manguito",
+            "descricao": "MANGUITO PROTORK C/ POLEGAR  (PAR) - TAM UNICO (PRETO)",
+            "marca": "Protork",
+            "imagem": "Fotos\\DMX10002.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10003",
+            "nome": "Viseira",
+            "descricao": "VISEIRA PRO TORK NEW LIBERTY 3/NEW ATOMIC (CRISTAL)  (ORIGINAL)",
+            "marca": "Protork",
+            "imagem": "Fotos\\DMX10003.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10004",
+            "nome": "Viseira",
+            "descricao": "VISEIRA PRO TORK NEW LIBERTY 3/NEW ATOMIC (FUME) (ORIGINAL)",
+            "marca": "Protork",
+            "imagem": "Fotos\\DMX10004.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10005",
+            "nome": "BAULETO",
+            "descricao": "BAULETO 28 LITROS PROTORK SMARTBOX  (LENTE VERMELHA) ",
+            "marca": "Protork",
+            "imagem": "Fotos\\DMX10005.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10006",
+            "nome": "BAULETO",
+            "descricao": "BAULETO 28 LITROS GLIDER UTILITY (QUADRADO SOCIAL) (SIMILAR GIVI TRAFFIC)",
+            "marca": "Glider",
+            "imagem": "Fotos\\DMX10006.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10007",
+            "nome": "RELACAO",
+            "descricao": "RELACAO COMPLETA TITAN/FAN/START 160 2016~ (44Z X 15Z - 428HX118L) (1045) TITANIUM                                      ",
+            "marca": "RIFFEL                          ",
+            "imagem": "Fotos\\DMX10007.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10008",
+            "nome": "RELACAO",
+            "descricao": "RELACAO COMPLETA TITAN/FAN/START 160 2016~ (44Z X 15Z - 428HX118L) (1045) (CERTIFICADA)                                 ",
+            "marca": "K-MARC                ",
+            "imagem": "Fotos\\DMX10008.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10009",
+            "nome": "RELACAO",
+            "descricao": "RELACAO COMPLETA C/ RETENTOR TITAN/FAN/START 160 2016  (44Z X 15Z - 428HOX118L) (1045) TOP                              ",
+            "marca": "RIFFEL                ",
+            "imagem": "Fotos\\DMX10009.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10010",
+            "nome": "RELACAO",
+            "descricao": "RELACAO COMPLETA C/ RETENTOR TITAN/FAN/START 160 2016  (44Z X 15Z - 428HOX118L) (1045) (CERTIFICADA)                    ",
+            "marca": "K-MARC                ",
+            "imagem": "Fotos\\DMX10010.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10011",
+            "nome": "RELACAO",
+            "descricao": "RELACAO COMPLETA TITAN/FAN 150 04~2015 (43Z X 16Z - 428HX118L) (1045) TITANIUM                                          ",
+            "marca": "RIFFEL                ",
+            "imagem": "Fotos\\DMX10011.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10012",
+            "nome": "RELACAO",
+            "descricao": "RELACAO COMPLETA C/ RETENTOR TITAN/FAN 150  (43Z X 16Z - 428HOX118L) (CERTIFICADA)                                      ",
+            "marca": "K-MARC                ",
+            "imagem": "Fotos\\DMX10012.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10013",
+            "nome": "RELACAO",
+            "descricao": "RELACAO COMPLETA C/ RETENTOR TITAN/FAN 150  (43Z X 16Z - 428HOX118L) (1045) TOP                                         ",
+            "marca": "RIFFEL                ",
+            "imagem": "Fotos\\DMX10013.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10014",
+            "nome": "OLEO",
+            "descricao": "OLEO MOTOR 1L 20W50 HONDA (FRASCO BRANCO)                                                                               ",
+            "marca": "HONDA ORIGINAL        ",
+            "imagem": "Fotos\\DMX10014.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10015",
+            "nome": "OLEO",
+            "descricao": "OLEO MOTOR 1L 10W30 HONDA (P/ SCOOTER)                                                                                  ",
+            "marca": "HONDA ORIGINAL        ",
+            "imagem": "Fotos\\DMX10015.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10016",
+            "nome": "OLEO",
+            "descricao": "OLEO MOTOR 1L 10W30 HONDA (FRASCO BRANCO)                                                                               ",
+            "marca": "HONDA ORIGINAL        ",
+            "imagem": "Fotos\\DMX10016.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10017",
+            "nome": "PASTILHA",
+            "descricao": "PASTILHA FREIO DIANTEIRA TITAN 150/160 14~2017 (C/ CBS)                                                                 ",
+            "marca": "K-MARC                ",
+            "imagem": "Fotos\\DMX10017.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10018",
+            "nome": "PASTILHA",
+            "descricao": "PASTILHA FREIO DIANTEIRA TITAN 160 25~ (ABS)/TITAN 150 09~2013/NXR BROS 160 2015~/FAZER 250 2016~ (S/ CBS)              ",
+            "marca": "K-MARC                ",
+            "imagem": "Fotos\\DMX10018.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10019",
+            "nome": "PASTILHA",
+            "descricao": "PASTILHA FREIO DIANTEIRA TITAN/FAN 160 18~2024 (C/ CBS)                                                                 ",
+            "marca": "K-MARC                ",
+            "imagem": "Fotos\\DMX10019.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10020",
+            "nome": "PASTILHA",
+            "descricao": "PASTILHA FREIO TRASEIRA TITAN 160 2025~                                                                                 ",
+            "marca": "DIAFRAG               ",
+            "imagem": "Fotos\\DMX10020.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10021",
+            "nome": "PASTILHA",
+            "descricao": "PASTILHA FREIO DIANTEIRA FAZER 150 14~2015/FACTOR 125 2009/CRYPTON 115/ (TRASEIRA N-MAX 160 2017~)                      ",
+            "marca": "K-MARC                ",
+            "imagem": "Fotos\\DMX10021.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10022",
+            "nome": "PASTILHA",
+            "descricao": "PASTILHA FREIO DIANTEIRA FZ15 (FAZER150) 2023~/BAJAJ DOMINAR 160/200 23~/PULSAR 150/180/220/XTZ TENERE 660 08~/BMW R1200",
+            "marca": "K-MARC                ",
+            "imagem": "Fotos\\DMX10022.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10023",
+            "nome": "PASTILHA",
+            "descricao": "PASTILHA FREIO TRASEIRA FAZER 250/XTZ LANDER/TENERE 250/XTZ CROSSER  150 2018                                           ",
+            "marca": "K-MARC                ",
+            "imagem": "Fotos\\DMX10023.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10024",
+            "nome": "PASTILHA",
+            "descricao": "PASTILHA FREIO DIANTEIRA CB 300R/CBX TWISTER 250/YBR 125 08/FAZER 250 05~15/NINJA 250/300/WEB 100                       ",
+            "marca": "K-MARC                ",
+            "imagem": "Fotos\\DMX10024.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10025",
+            "nome": "PASTILHA",
+            "descricao": "PASTILHA FREIO TRASEIRA XRE 300/NX FALCON 400 (S/ ABS)                                                                  ",
+            "marca": "K-MARC                ",
+            "imagem": "Fotos\\DMX10025.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10026",
+            "nome": "PASTILHA",
+            "descricao": "PASTILHA FREIO TRASEIRA NXR BROS 160 2015~/CB TWISTER 250F 2016~/XRE 190 2016~/XRE 300 19~2023/XRE SAHA 300 (C/ ABS)    ",
+            "marca": "K-MARC                ",
+            "imagem": "Fotos\\DMX10026.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10027",
+            "nome": "PASTILHA",
+            "descricao": "PASTILHA FREIO TRASEIRA CB300R/XRE 300/CB600F HORNET 04~12/CB500 14/XJ6N/F/MT 07/MT 09/TRANSALP 700 (C/ ABS)            ",
+            "marca": "K-MARC                ",
+            "imagem": "Fotos\\DMX10027.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10028",
+            "nome": "PASTILHA",
+            "descricao": "PASTILHA FREIO DIANTEIRA BIZ 125 06~2017/NXR BROS 150/160 03~2017/XRE 190/300/XRE SAHARA 300/NX 400 (S/ ABS)            ",
+            "marca": "K-MARC                ",
+            "imagem": "Fotos\\DMX10028.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10029",
+            "nome": "FAROL COMPLETO",
+            "descricao": "FAROL COMPLETO (KIT) (C/ TAMPA TRASEIRA/ARANHA) MODELO TITAN/FAN 160 25~ (P/ 150/160 14~2024) AMARELO CAJU (DOURADO)                          ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10029.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10030",
+            "nome": "FAROL COMPLETO",
+            "descricao": "FAROL COMPLETO (KIT) (C/ TAMPA TRASEIRA/ARANHA) MODELO TITAN/FAN 160 25~ (P/ 150/160 14~2024) AZUL CARAIVA PEROLIZADO                         ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10030.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10031",
+            "nome": "FAROL COMPLETO",
+            "descricao": "FAROL COMPLETO (KIT) (C/ TAMPA TRASEIRA/ARANHA) MODELO TITAN/FAN 160 25~ (P/ 150/160 14~2024) AZUL CRUZEIRO PEROLIZADO                        ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10031.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10032",
+            "nome": "FAROL COMPLETO",
+            "descricao": "FAROL COMPLETO (KIT) (C/ TAMPA TRASEIRA/ARANHA) MODELO TITAN/FAN 160 25~ (P/ 150/160 14~2024) AZUL SPENCER                                    ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10032.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10033",
+            "nome": "FAROL COMPLETO",
+            "descricao": "FAROL COMPLETO (KIT) (C/ TAMPA TRASEIRA/ARANHA) MODELO TITAN/FAN 160 25~ (P/ 150/160 14~2024) AZUL TWISTER PEROLIZADO                         ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10033.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10034",
+            "nome": "FAROL COMPLETO",
+            "descricao": "FAROL COMPLETO (KIT) (C/ TAMPA TRASEIRA/ARANHA) MODELO TITAN/FAN 160 25~ (P/ 150/160 14~2024) BRANCO ROSS (COR CARGO)                         ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10034.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10035",
+            "nome": "FAROL COMPLETO",
+            "descricao": "FAROL COMPLETO (KIT) (C/ TAMPA TRASEIRA/ARANHA) MODELO TITAN/FAN 160 25~ (P/ 150/160 14~2024) CINZA CYNOS (PRETO FOSCO)                       ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10035.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10036",
+            "nome": "FAROL COMPLETO",
+            "descricao": "FAROL COMPLETO (KIT) (C/ TAMPA TRASEIRA/ARANHA) MODELO TITAN/FAN 160 25~ (P/ 150/160 14~2024) CINZA EMBARE METALICO                           ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10036.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10037",
+            "nome": "FAROL COMPLETO",
+            "descricao": "FAROL COMPLETO (KIT) (C/ TAMPA TRASEIRA/ARANHA) MODELO TITAN/FAN 160 25~ (P/ 150/160 14~2024) CINZA TORNADO METALICO                          ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10037.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10038",
+            "nome": "FAROL COMPLETO",
+            "descricao": "FAROL COMPLETO (KIT) (C/ TAMPA TRASEIRA/ARANHA) MODELO TITAN/FAN 160 25~ (P/ 150/160 14~2024) PRATA FORCE METALICO                            ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10038.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10039",
+            "nome": "FAROL COMPLETO",
+            "descricao": "FAROL COMPLETO (KIT) (C/ TAMPA TRASEIRA/ARANHA) MODELO TITAN/FAN 160 25~ (P/ 150/160 14~2024) PRATA IRON NAIL METALICO                        ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10039.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10040",
+            "nome": "FAROL COMPLETO",
+            "descricao": "FAROL COMPLETO (KIT) (C/ TAMPA TRASEIRA/ARANHA) MODELO TITAN/FAN 160 25~ (P/ 150/160 14~2024) PRETO                                           ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10040.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10041",
+            "nome": "FAROL COMPLETO",
+            "descricao": "FAROL COMPLETO (KIT) (C/ TAMPA TRASEIRA/ARANHA) MODELO TITAN/FAN 160 25~ (P/ 150/160 14~2024) VERMELHO MARRAKESH PEROLIZADO                   ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10041.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10042",
+            "nome": "FAROL COMPLETO",
+            "descricao": "FAROL COMPLETO (KIT) (C/ TAMPA TRASEIRA/ARANHA) MODELO TITAN/FAN 160 25~ (P/ 150/160 14~2024) VERMELHO PIMENTA PEROLIZADO                     ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10042.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10043",
+            "nome": "CARENAGEM",
+            "descricao": "CARENAGEM (BANANINHA) FAROL TITAN/FAN 160 2025~ AZUL SPENCER                                                            ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10043.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10044",
+            "nome": "CARENAGEM",
+            "descricao": "CARENAGEM (BANANINHA) FAROL TITAN/FAN 160 2025~ LARANJA BEDUINA                                                         ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10044.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10045",
+            "nome": "CARENAGEM",
+            "descricao": "CARENAGEM (BANANINHA) FAROL TITAN/FAN 160 2025~ PRETO                                                                   ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10045.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10046",
+            "nome": "CARENAGEM",
+            "descricao": "CARENAGEM (BANANINHA) FAROL TITAN/FAN 160 2025~ VERMELHO MARRAKESH PEROLIZADO                                           ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10046.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10047",
+            "nome": "CARENAGEM",
+            "descricao": "CARENAGEM (BANANINHA) FAROL TITAN/FAN 160 2025~ VERMELHO REALEZA METALICO (COR TITAN 2025)                              ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10047.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10048",
+            "nome": "PROTETOR",
+            "descricao": "PROTETOR ESCAPAMENTO TITAN/FAN/START/CARGO 160 2025~ (TERMOPLASTICO/FIBRA ALTA RESISTENCIA) (PRATA)                           ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10048.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        },
+        {
+            "codigo": "DMX10049",
+            "nome": "PROTETOR",
+            "descricao": "PROTETOR ESCAPAMENTO TITAN/FAN/START/CARGO 160 2025~ (TERMOPLASTICO/FIBRA ALTA RESISTENCIA) (PRETO)                           ",
+            "marca": "Plasmoto",
+            "imagem": "Fotos\\DMX10049.jpg",
+            "link_shopee": "https://seller.shopee.com.br/portal/settings/shop/profile/"
+        }
+    ]
+}

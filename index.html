@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damotrix - Sua Loja de Motopeças</title>
+    <!-- Google Fonts: Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        /* --- Reset e Configurações Globais --- */
+        :root {
+            --cor-laranja: #f39c12;
+            --cor-preto: #1c1c1c;
+            --cor-cinza-escuro: #333;
+            --cor-cinza-claro: #f4f4f4;
+            --cor-branco: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--cor-branco);
+            color: var(--cor-cinza-escuro);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 0 2rem;
+            overflow: hidden;
+        }
+
+        h1, h2 {
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: var(--cor-preto);
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--cor-laranja);
+            display: inline-block;
+            margin-bottom: 2rem;
+        }
+
+        section {
+            padding: 6rem 0;
+        }
+
+        /* --- Cabeçalho e Navegação --- */
+        .header {
+            background-color: var(--cor-preto);
+            color: var(--cor-branco);
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            height: 100%;
+            width: 100%;
+            padding: 0 2rem;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 40px;
+            width: 120px;
+        }
+
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            margin-left: 2rem;
+            flex-shrink: 0;
+        }
+
+        .nav-menu li {
+            padding: 0 1rem;
+        }
+
+        .nav-menu a {
+            color: var(--cor-branco);
+            text-decoration: none;
+            font-weight: 700;
+            transition: color 0.3s ease;
+        }
+
+        .nav-menu a:hover {
+            color: var(--cor-laranja);
+        }
+        
+        /* --- Seção de Início (Banner) --- */
+        #inicio {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1558981403-c5f9899a28bc?q=80&w=2070&auto=format&fit=crop') no-repeat center center/cover;
+            height: 100vh;
+            color: var(--cor-branco);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 0;
+        }
+
+        #inicio h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+
+        #inicio p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background-color: var(--cor-laranja);
+            color: var(--cor-preto);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 700;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            background-color: #e67e22;
+        }
+
+        /* --- Seção Quem Somos --- */
+        #quem-somos {
+            background-color: var(--cor-cinza-claro);
+        }
+        
+        .quem-somos-content {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .quem-somos-content p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        /* --- Seção Produtos --- */
+        #produtos {
+            background-color: var(--cor-branco);
+        }
+        
+        .search-container {
+            margin-bottom: 2.5rem;
+            text-align: center;
+        }
+
+        #searchInput {
+            width: 100%;
+            max-width: 500px;
+            padding: 0.8rem;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: 2px solid #ddd;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #searchInput:focus {
+            outline: none;
+            border-color: var(--cor-laranja);
+            box-shadow: 0 0 8px rgba(243, 156, 18, 0.4);
+        }
+        
+        .produtos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .produto-card {
+            background: var(--cor-branco);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.4s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .produto-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .produto-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+            background-color: #f8f9fa;
+            cursor: pointer;
+        }
+
+        .produto-info {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .produto-info h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            color: var(--cor-preto);
+        }
+        
+        .produto-info h5 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: #777;
+            margin-bottom: 0.8rem;
+        }
+
+        .produto-info p {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn-shopee {
+            background-color: #ee4d2d;
+            color: var(--cor-branco);
+            margin-top: auto;
+        }
+
+        .btn-shopee:hover {
+            background-color: #d73113;
+        }
+        
+        .produto-extra {
+            display: none;
+        }
+
+        .ver-mais-container {
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        /* --- Seção Contato --- */
+        #contato {
+            background-color: var(--cor-cinza-escuro);
+            color: var(--cor-branco);
+            text-align: center;
+        }
+        
+        #contato h2 {
+            color: var(--cor-branco);
+        }
+
+        #contato p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .social-links a {
+            color: var(--cor-branco);
+            font-size: 2.5rem;
+            margin: 0 1rem;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: var(--cor-laranja);
+            transform: scale(1.2);
+        }
+
+        /* --- Rodapé --- */
+        .footer {
+            background-color: var(--cor-preto);
+            color: var(--cor-branco);
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        /* Estilos para o Lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .lightbox-content {
+            display: block;
+            max-width: 85%;
+            max-height: 85vh;
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .lightbox-close:hover {
+            color: #bbb;
+        }
+
+        /* --- Responsividade --- */
+        @media(max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                padding: 0 1rem;
+                align-items: center;
+            }
+
+            .logo {
+                margin-bottom: 1rem;
+            }
+
+            .nav-menu {
+                padding: 0;
+                margin-left: 0;
+            }
+
+            .nav-menu li {
+                padding: 0 0.7rem;
+            }
+
+            #inicio h1 {
+                font-size: 2.5rem;
+            }
+
+            #inicio p {
+                font-size: 1.2rem;
+            }
+            
+            h2 {
+                font-size: 2rem;
+            }
+
+            section {
+                padding: 4rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho Fixo -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#inicio" class="logo">
+                <img src="Fotos/logosemfund.png" alt="Logo Damotrix">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção de Início -->
+        <section id="inicio">
+            <h1>DAMOTRIX</h1>
+            <p>Sua loja de confiança em motopeças</p>
+            <a href="#produtos" class="btn">Ver Produtos</a>
+        </section>
+
+        <!-- Seção Quem Somos -->
+        <section id="quem-somos">
+            <div class="container">
+                <div style="text-align: center;">
+                    <h2>Quem Somos</h2>
+                </div>
+                <div class="quem-somos-content">
+                    <p>
+                        A Damotrix nasceu da paixão por motocicletas e da necessidade de encontrar um lugar confiável para a compra de peças e acessórios. Somos uma loja especializada, dedicada a oferecer produtos de alta qualidade e um atendimento excepcional. Com anos de experiência no mercado, nossa equipe está pronta para ajudar você a encontrar exatamente o que sua moto precisa.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Produtos -->
+        <section id="produtos">
+            <div class="container">
+                <div style="text-align: center;">
+                    <h2>Produtos</h2>
+                </div>
+                
+                <div class="search-container">
+                    <input type="search" id="searchInput" placeholder="Pesquisar por nome ou código do produto...">
+                </div>
+
+                <!-- A grade de produtos agora está vazia. O JavaScript irá preenchê-la. -->
+                <div class="produtos-grid" id="produtos-grid">
+                    <!-- Os produtos serão inseridos aqui pelo JavaScript -->
+                </div>
+
+                <div class="ver-mais-container" id="verMaisContainer">
+                    <button id="verMaisBtn" class="btn">Ver Mais Produtos</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <p>Siga-nos nas redes sociais e fale conosco pelo WhatsApp!</p>
+                <div class="social-links">
+                    <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://wa.me/qr/CNFJX3ZDDP5OA1" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>&copy; 2024 Damotrix. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Estrutura do Lightbox para exibir a imagem em tela cheia -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <!-- JavaScript para interatividade -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            const produtosGrid = document.getElementById('produtos-grid');
+            const searchInput = document.getElementById('searchInput');
+            const verMaisContainer = document.getElementById('verMaisContainer');
+            const verMaisBtn = document.getElementById('verMaisBtn');
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            const closeBtn = document.querySelector('.lightbox-close');
+
+            let todosOsProdutos = [];
+            let areProductsExpanded = false;
+            // ALTERADO: Defini o número de produtos visíveis inicialmente para 3.
+            const produtosVisiveisInicialmente = 3;
+
+            // --- Função Principal: Carrega e exibe os produtos ---
+            async function carregarProdutos() {
+                try {
+                    const response = await fetch('produtos.json');
+                    if (!response.ok) {
+                        throw new Error(`Erro ao carregar produtos.json: ${response.statusText}`);
+                    }
+                    const data = await response.json();
+                    todosOsProdutos = data.Produtos; 
+
+                    if (!Array.isArray(todosOsProdutos)) {
+                        throw new Error("O JSON não contém um array de produtos na chave 'Produtos'.");
+                    }
+
+                    exibirProdutos(todosOsProdutos);
+                    inicializarFuncionalidades();
+                } catch (error) {
+                    console.error("Não foi possível carregar os produtos:", error);
+                    produtosGrid.innerHTML = "<p>Erro ao carregar produtos. Verifique se o arquivo 'produtos.json' está na mesma pasta do site e se o formato está correto.</p>";
+                }
+            }
+
+            // --- Função para criar o HTML de cada produto e exibir na tela ---
+            function exibirProdutos(produtos) {
+                produtosGrid.innerHTML = '';
+                produtos.forEach((produto, index) => {
+                    const classeExtra = index >= produtosVisiveisInicialmente ? 'produto-extra' : '';
+                    
+                    const descricaoCompleta = `${produto.descricao}<br>Marca: ${produto.marca}`;
+                    const infoBusca = `${produto.nome} ${produto.descricao} ${produto.marca} ${produto.codigo}`;
+
+                    const cardHTML = `
+                        <div class="produto-card ${classeExtra}" data-info="${infoBusca}">
+                            <img src="${produto.imagem}" alt="Imagem de ${produto.nome}">
+                            <div class="produto-info">
+                                <h3>${produto.nome}</h3>
+                                <h5>${produto.codigo}</h5>
+                                <p>${descricaoCompleta}</p>
+                                <a href="${produto.link_shopee}" class="btn btn-shopee" target="_blank">Comprar na Shopee</a>
+                            </div>
+                        </div>
+                    `;
+                    produtosGrid.insertAdjacentHTML('beforeend', cardHTML);
+                });
+            }
+
+            // --- Função para inicializar os eventos após os produtos serem carregados ---
+            function inicializarFuncionalidades() {
+                const produtosExtras = document.querySelectorAll('.produto-extra');
+
+                if (produtosExtras.length === 0) {
+                    verMaisContainer.style.display = 'none';
+                }
+
+                verMaisBtn.addEventListener('click', function() {
+                    areProductsExpanded = !areProductsExpanded;
+                    produtosExtras.forEach(produto => {
+                        produto.style.display = areProductsExpanded ? 'flex' : 'none';
+                    });
+                    verMaisBtn.textContent = areProductsExpanded ? 'Ver Menos' : 'Ver Mais Produtos';
+                });
+
+                searchInput.addEventListener('keyup', function() {
+                    const searchTerm = this.value.toLowerCase().trim();
+                    const todosOsCards = document.querySelectorAll('.produto-card');
+
+                    todosOsCards.forEach(card => {
+                        const cardInfo = card.getAttribute('data-info').toLowerCase();
+                        if (cardInfo.includes(searchTerm)) {
+                            card.style.display = 'flex';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                    
+                    verMaisContainer.style.display = searchTerm ? 'none' : (produtosExtras.length > 0 ? 'block' : 'none');
+                });
+
+                const productImages = document.querySelectorAll('.produto-card img');
+                productImages.forEach(img => {
+                    img.addEventListener('click', function() {
+                        lightbox.style.display = 'flex';
+                        lightboxImg.src = this.src;
+                    });
+                });
+
+                closeBtn.addEventListener('click', () => lightbox.style.display = 'none');
+                lightbox.addEventListener('click', (e) => {
+                    if (e.target === lightbox) {
+                        lightbox.style.display = 'none';
+                    }
+                });
+            }
+
+            // Inicia o processo
+            carregarProdutos();
+        });
+    </script>
+
+</body>
+</html>
